@@ -14,9 +14,9 @@ function onInputBlur (event) {
 
     if(event.currentTarget.value.length !== attribute)
     {
-        return(input.classList.add('invalid'))
+        return(input.classList.toggle('invalid'))
     }
-    return(input.classList.add('valid'))
+    return(input.classList.toggle('valid'))
 
 };
 
