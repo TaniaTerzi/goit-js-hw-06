@@ -39,7 +39,9 @@ function createBoxes(amount) {
 // пишемо функцію, яка видаляє елемент по кліку на кнопку
 function resetElement (event) {
   console.log('reset function');
-  conteiner.remove();
+  // conteiner.remove();
+  conteiner.textContent = ""; 
+
 };
 // функція, яка витягує значення з інпута
 function myFunction () {
